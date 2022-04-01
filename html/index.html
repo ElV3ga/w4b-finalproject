@@ -9,11 +9,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0f3371b1af.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav>
-            <div class="card">
+            <div class="nav-card">
                   <div class="content">
                     <div class="logo">
                         <h2 class="logo-text"><a href="#">GR<span>I D</span></a></h2>
@@ -37,15 +38,71 @@
     </header>
 
     <section class="first-section">
+        <h1>Our Team</h1>
+        <div class="container">
+            <div class="card mem1">
+              <img alt="Profile Picture" src="/Graphics/Images/mem1-profilepicture.png">
+                <div class="content">
+                    <h2 class="etitle">Member One</h2>
+                    <h3 class="etitle Subtitle">Chief technology officer</h3>
+                    <p class="edescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, alias.</p>
+                    <button><a class="mem-btn edescription" href="#">Read More</a></button>
+                </div>
+            </div>
+            <div class="card mem2">
+                <img alt="Profile Picture" src="/Graphics/Images/lv-profilepicture.png">
+                  <div class="content">
+                    <h2 class="etitle">Luis Vega</h2>
+                    <h3 class="etitle Subtitle">IT Consultant</h3>
+                    <p class="edescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, alias.</p>
+                    <button><a class="mem-btn edescription" href="#">Read More</a></button>
+                  </div>
+            </div>
+            <div class="card mem3">
+                <img alt="Profile Picture" src="/Graphics/Images/mem3-profilepicture.png">
+                  <div class="content">
+                    <h2 class="etitle">Member Two</h2>
+                    <h3 class="etitle Subtitle">Database analyst</h3>
+                    <p class="edescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, alias.</p>
+                    <button><a class="mem-btn edescription" href="#">Read More</a></button>
+                  </div>
+            </div>
+        </div>
     </section>
-    <section>
-        <!--Reference Cards Here -->
+    <section class="second-section">
+        <img alt="Portrait of First Last" src="/Graphics/Images/pexels-katerina-holmes-5905895.jpg" class="img-ref">
+        <div class="reference">
+            <h1>First Last</h1>
+            <h2>Co-Owner, Boogle inc.</h2>
+            <p> Thes are very nice words. Highly recommend. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore eveniet corporis fugiat praesentium inventore, ex iste quod saepe libero obcaecati. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus cumque nesciunt adipisci minima officiis aperiam esse laborum, earum, sint eligendi a, ad quidem accusamus nostrum deserunt similique nemo quos hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio deleniti quidem voluptate sunt repellat, reprehenderit delectus autem unde odit aperiam, dignissimos saepe consequuntur vero repellendus in architecto fuga placeat. Necessitatibus cumque nesciunt adipisci minima officiis aperiam esse laborum, earum, sint eligendi a, ad quidem accusamus nostrum deserunt similique nemo quos hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio deleniti quidem voluptate sunt repellat, reprehenderit delectus autem unde odit aperiam, dignissimos saepe consequuntur vero repellendus in architecto fuga placeat. 10/10 </p>
+        </div>
     </section>
+    <footer>
+        <div class="footer-container">
+            <footer>
+                <ul class="footer-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
+                
+                <p class="copyright-section">GRID LLC. © 2022</p>
+            </footer>
+        </div>
+    </footer>
     
     <script type="text/javascript" src="/JS/vanilla-tilt.js"></script>
   <script>
-      VanillaTilt.init(document.querySelectorAll(".card"), {
+      VanillaTilt.init(document.querySelectorAll(".card, .nav-card"), {
 		max: 15,
+        perspective: 1000,
 		speed: 400,
         scale: 1.1,
         glare: true,
