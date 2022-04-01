@@ -1,0 +1,49 @@
+span{
+    display: block;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.logo{
+    display: flex;
+    color: white;
+    letter-spacing: 10px;
+}
+.first-section{
+    display: inline-block;
+    background-image: linear-gradient(rgb(114, 208, 211),rgb(7, 128, 145));
+    color: black;
+    align-items: center;
+    padding: 75px;
+    background-size: cover;
+
+}
+
+.card{
+    width: 77px;
+    height: 70px;
+    box-shadow: 5px 5px 75px rgba(0, 0, 0, .5);
+    border-radius: 7px;
+    background: rgba(255, 255, 255, .1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: .1px solid rgba(255, 255, 255, 0.5);
+    border-left: .1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+}
+.card .logo{
+    padding-left: 6px;
+}
+
+.first-section-logo{
+    padding-left: 25px;
+}
+
+.primary-button{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
