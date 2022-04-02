@@ -203,7 +203,7 @@ p{
     opacity: 100;
     transition: 0.5s;
 }
-.card img{
+.card .home-card-img{
     position: relative;
     top: 100px;
     transform: translateY(0px);
@@ -212,7 +212,7 @@ p{
     transition: 0.5s;
     z-index: 1;
 }
-.card:hover img{
+.card:hover .home-card-img{
     transform: translateY(-80px);
 }
 .etitle{
@@ -273,9 +273,6 @@ p{
 .reference{
     text-align: left;
     padding: 100px 300px 100px 0px;
-}
-.reference h1{
-    text-decoration: underline var(--accent);
 }
 .reference h2{
     color: var(--g1primary);
@@ -349,4 +346,153 @@ p{
     font-size:15px;
     color:var(--accent);
   }
-
+  /*About Page*/
+  .about-header{
+    width: 90%;
+    color: var(--white);
+    position: absolute;
+    top: -23%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    text-shadow: 1px 1px 5px var(--black);
+}
+.about-text{
+    padding: 50px 300px 0px 300px;
+    font-size: 25px;
+    line-height: 30px;
+}
+.header-card{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, .1);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    backdrop-filter: blur(5px);
+}
+.header-card .content{
+    width: 150px;
+    height: 150px;
+}
+.header-card .logo-text a{
+    font-size: 45px;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--white);
+}
+.about-text span{
+    transition: .5s;
+}
+.about-text span:hover{
+    color: var(--accent);
+}
+.card .about-card-img{
+    position: relative;
+    display: flex;
+    top: 50px;
+    left: 60px;
+    transform: translateY(0px);
+    width: 150px;
+    height: 150px;
+    transition: 0.5s;
+    z-index: 1;
+}
+.about-card-title{
+    color: var(--white);
+    text-shadow:  1px 1px 10px var(--black);
+    transform: translateY(70px);
+    transition: 0.5s;
+}
+.about-container{
+    width: 90%;
+    margin: 50px 50px 0px 50px;
+    columns: 2;
+}
+.about-container .card .content{
+    padding: 20px;
+    text-align: center;
+    opacity: 100;
+    transition: 0.5s;
+}
+.about-spacing{
+    margin-bottom: 75px;
+}
+.about-first-section{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 25px;
+    background-image: linear-gradient(to bottom,var(--accent),var(--accent2)), url(/Graphics/Images/img\ \(3\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+.spacing-inbetween{
+    background-color: var(--gray);
+    height: 75px;
+}
+/*Contact Us*/
+.contact-box{
+    width: 500px;
+    background-color: var(--g1primary);
+    box-shadow: 1px 1px 10px var(--black);
+    position: relative;
+    text-align: center;
+}
+form{
+    margin: 35px;
+}
+.form-title{
+    padding-top: 20px;
+    font-size: 30px;
+    transition: .4;
+}
+.form-title span:hover{
+    color: var(--accent);
+}
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 10px 0 10px;
+    border: 1px solid var(--gray2);
+    border-radius: 5px;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.send-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--white);
+    border: 2px solid var(--white);
+    padding: 6px 17px;
+    font-size: 18px;
+    font-weight: 300;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    text-shadow: 2px 2px 10px var(--black);
+    transition: .4s;
+    z-index: 1;
+}
+.send-btn:hover{
+    border: 2px solid var(--gray);
+    background: var(--gray);
+    box-shadow: 1px 1px 10px var(--black);
+}
+.content-contact{
+    display: flex;
+    justify-content: center;
+}
+video{
+    padding-top: 20px;
+    height: 500px;
+}

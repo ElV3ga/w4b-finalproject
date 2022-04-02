@@ -7,7 +7,6 @@
     <title>GRID</title>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/0f3371b1af.js" crossorigin="anonymous"></script>
 </head>
@@ -23,10 +22,10 @@
             </div>
             <div class="nav-links">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="/html/index.html">Home</a></li>
+                    <li><a href="/html/about.html">About</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="/html/contact-us.html">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -41,7 +40,7 @@
         <h1>Our Team</h1>
         <div class="container">
             <div class="card mem1">
-              <img alt="Profile Picture" src="/Graphics/Images/mem1-profilepicture.png">
+              <img class="home-card-img" alt="Profile Picture" src="/Graphics/Images/mem1-profilepicture.png">
                 <div class="content">
                     <h2 class="etitle">Member One</h2>
                     <h3 class="etitle Subtitle">Chief technology officer</h3>
@@ -50,16 +49,16 @@
                 </div>
             </div>
             <div class="card mem2">
-                <img alt="Profile Picture" src="/Graphics/Images/lv-profilepicture.png">
+                <img class="home-card-img" alt="Profile Picture" src="/Graphics/Images/lv-profilepicture.png">
                   <div class="content">
                     <h2 class="etitle">Luis Vega</h2>
                     <h3 class="etitle Subtitle">IT Consultant</h3>
                     <p class="edescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio, alias.</p>
-                    <button><a class="mem-btn edescription" href="#">Read More</a></button>
+                    <button><a class="mem-btn edescription" href="/html/about.html">Read More</a></button>
                   </div>
             </div>
             <div class="card mem3">
-                <img alt="Profile Picture" src="/Graphics/Images/mem3-profilepicture.png">
+                <img class="home-card-img" alt="Profile Picture" src="/Graphics/Images/mem3-profilepicture.png">
                   <div class="content">
                     <h2 class="etitle">Member Two</h2>
                     <h3 class="etitle Subtitle">Database analyst</h3>
@@ -79,25 +78,21 @@
     </section>
     <footer>
         <div class="footer-container">
-            <footer>
                 <ul class="footer-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="/html/index.html">Home</a></li>
+                    <li><a href="/html/about.html">About</a></li>
                     <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="/html/contact-us.html">Contact Us</a></li>
                 </ul>
                 <div class="socials">
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
                 </div>
-                
                 <p class="copyright-section">GRID LLC. © 2022</p>
-            </footer>
         </div>
     </footer>
-    
     <script type="text/javascript" src="/JS/vanilla-tilt.js"></script>
   <script>
       VanillaTilt.init(document.querySelectorAll(".card, .nav-card"), {
